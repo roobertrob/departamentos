@@ -1,0 +1,105 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:#25283dc4;
+}
+.titulo {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.separador {
+  width: 160px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.login {
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  min-width: 300px;
+  min-height: 400px;
+  background: #00b1aa;
+  border-radius: 25px;
+}
+.login:hover{
+  height: 75vh;
+  width: 32%;
+  transition: 0.5s;
+  box-shadow: 5px 5px 8px 1px #25283d75;  
+}
+.login:hover .titulo{
+  font-size:2.5rem;
+  transition: 0.5s;
+}
+.login:not(:hover) .titulo{
+  font-size:2.3rem;
+  transition: 0.7s;
+}
+
+
+.login:not(:hover){
+  transition: 0.7s;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.form > input {
+  margin: 2vh;
+  width: 80%;
+  height: 7%;
+  min-width: 240px;
+  min-height: 35px;
+  border-radius: 12px;
+  border: none;
+  background-color: #fff;
+  font-size: 1.2rem;
+}
+.form > input::placeholder {
+  color: #6f6f6f;
+  font-size: 1rem;
+  padding: 2%;
+}
+.form > button {
+  margin: 2vh;
+  width: 80%;
+  height: 7%;
+  min-width: 240px;
+  min-height: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  text-transform: uppercase;
+  color: #00b1aa;
+  font-size: 1rem !important;
+
+  font-size: 120%;
+  margin-bottom: 50px;
+}
+
+.form > button:hover {
+  background-color: #25283d;
+  color: #fff;
+  transition: 0.8s;
+  cursor: pointer;
+}

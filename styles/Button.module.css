@@ -1,0 +1,25 @@
+button{
+    margin: 2vh;
+    width: 80%;
+    height: 7%;
+    min-width: 240px;
+    min-height: 35px;
+    border-radius:20px;
+    border: none;
+    background-color: #fff;
+    text-transform: uppercase;
+    color:#00B1AA;
+    font-size:1rem !important; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%; 
+    margin-bottom:50px;
+  }
+  
+  button:hover{
+    background-color: #25283D;
+    color: #fff;
+    transition: 0.8s;
+    cursor: pointer;
+    
+  
+  }
